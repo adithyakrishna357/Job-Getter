@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.nav-item a{
+    color:#5e7aad;
+}
+.nav-item a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.nav-item{
+    color:black;
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0{
+    width: 130px;
+    height: 52px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(182, 71, 98);
+}
+.btn0:hover{
+    background:rgb(43, 23, 27);
+}
+.btn1{
+    width: 130px;
+    height:52px;
+    outline: none;
+    border: 2px solid rgb(182, 71, 98);
+    color: rgb(182, 71, 98);
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: transparent;
+}
+.btn1:hover{
+   background-color:rgb(182, 71, 98); 
+   transition: all 0.4s;
+   color: white;
+   border: none;
+   outline: none;
+}
+.main{
+    background-image: url(images/jobimgs/main1copy.jpg);
+    background-size:cover;
+    min-height:95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: #39505f;
+}
+.main input{
+    height: 71px;
+    width: 70%;
+    border:none;
+    outline:none;
+    padding: 15px;
+}
+.btn2{
+    color: white;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition: all 0.4s;
+    height: 70px;
+    width: 25%;
+    background-color:rgb(182, 71, 98);
+    margin-left: -4px;
+}
+.btn2:hover{
+    background-color: black;
+    transition: all 0.4s;   
+}
+.red{
+    color: red;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: #39505f;
+}
+.ceta .card:hover{
+    color:rgb(182, 71, 98);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid #39505f;
+    margin-top: 70px;
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn3:hover{
+    background:#39505f;
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+.resume{
+    background-image: linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)),url(./images/jobimgs/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size:3.8em;
+}
+.btn4{
+    height: 70px;
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 70px;
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn4:hover{
+    background:black;
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+.job h1{
+    font-size: 3.5rem;
+}
+.btn5{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color:#39505f;
+    color: white;
+    transition: all 0.4s;
+}
+.btn5:hover{
+    background:black;
+    color: white;
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+}
+.apply{
+    background: url("images/jobimgs/cool-background.png");
+    background-size: cover;
+    width: 100%;
+}
+.apply .card{
+    background-color: rgb(4, 26, 100,0.801);
+    color: white;
+}
+.cir1{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.ciri img{
+    border-radius: 50%;
+}
+.footer{
+    background: #121626;
+    color: white;
+}
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}
+.link:hover{
+    color:rgb(182, 71, 98);
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer button{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    margin-left: -12px;
+    border-top: 1px solid rgb(182, 71, 98);
+    background: rgb(182, 71, 98);
+    color: white;
+    margin-top:  40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+}
